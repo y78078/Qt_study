@@ -40,8 +40,11 @@ main()
      
  ### aclocal
  ### autoconf
- 
- 
- 
- 
+ ### touch NEWS README AUTHORS ChangeLog
+ ### automake -a
+ ### ./configure ${CONFIGURE_FLAGS}
+ ### make
+ ### make install DESTDIR=./tmp
+ ### file ./tmp/usr/local/bin/hello
+ ### ./hello
  
