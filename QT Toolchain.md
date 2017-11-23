@@ -24,7 +24,7 @@ main()
      
      hello_SOURCES = hello.c
 
-### For configure.in, include these lines:
+### For configure.ac, include these lines:
 
      AC_INIT(hello,0.1)
      
@@ -43,6 +43,7 @@ main()
  ### touch NEWS README AUTHORS ChangeLog
  ### automake -a
  ### ./configure ${CONFIGURE_FLAGS}
+ ### edit Makefile arm-poky-linux-gnueabi (後面加上-lm)
  ### make
  ### make install DESTDIR=./tmp
  ### file ./tmp/usr/local/bin/hello
