@@ -1,6 +1,7 @@
 # QT Toolchain use
 
 ## QT Toolchain cross-compile
+https://www.yoctoproject.org/docs/1.7/adt-manual/adt-manual.pdf
 
 http://www.yoctoproject.org/docs/latest/adt-manual/adt-manual.html#sdk-working-projects
 
