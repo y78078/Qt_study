@@ -50,3 +50,7 @@ main()
  ### file ./tmp/usr/local/bin/hello
  ### ./hello
  
+ # toolchain normal cross compile bug
+ ## Link error: ./lib/.libs/libcurl.so: No such file or directory
+ ###  adding 'LIBS=-ldl -lpthread'
+
